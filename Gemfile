@@ -30,6 +30,10 @@ gem "table_print"
 
 gem "faker"
 
+gem "dotenv-rails"
+
+gem "dotenv"
+
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
@@ -74,3 +78,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
+
+gem "pg", "~> 1.5"
